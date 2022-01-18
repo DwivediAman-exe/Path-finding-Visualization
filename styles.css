@@ -1,0 +1,9 @@
+body {
+	background: black;
+	margin: 0;
+	overflow: hidden;
+}
+
+.gridcell {
+	float: left;
+}
