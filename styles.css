@@ -7,3 +7,25 @@ body {
 .gridcell {
 	float: left;
 }
+
+.gridcell.blocked {
+	background: rgb(235, 20, 20);
+}
+
+.gridcell.out-cell {
+	background-color: rgb(92, 240, 6);
+}
+
+.gridcell.in-cell {
+	background-color: rgb(9, 110, 117);
+}
+
+svg {
+	position: fixed;
+	z-index: -1;
+}
+svg path {
+	fill: none;
+	stroke-width: 3px;
+	stroke: white;
+}
